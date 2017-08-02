@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-right w3-padding-16"></div>
+    <div class="w3-center w3-padding-16">Educating Us </div>
+  </div>
+</div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="/w3images/sandwich.jpg" style="width:100%">
+      <h3>Men</h3>
+      <body background="men.jpg">
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/steak.jpg" style="width:100%">
+      <h3>Women</h3>
+      <p></p>
+    </div>
+    <div class="w3-quarter">
+      <img src="/w3images/cherries.jpg" style="width:100%">
+      <h3>LGBT+</h3>
+      <p></p>
+     </div>
+    <div class="w3-quarter">
+      <img src="/w3images/wine.jpg" style="width:100%">
+      <h3>People</h3>
+      <p> </p>
+    </div>
+  </div>
+
+  <hr id="about">
+
+  <!-- About Section -->
+  <center>
+  <body>
+  <div id="aboutuscolumns">
+  <h1><big> About Us </big></h1>
+    <div width='20'>
+    <div class="row">
+      <div class='col-md-4'>
+      	<div>
+      	<div>
+      	<img src="naomisface.png" alt="Naomi" class="img-circle" style="width:20%">
+      	</div>
+       	<h3>NAOMI</h3>
+      	</div>
+      	<div>
+      	<p> Naomi is a 15 year old programmer, violinist, linguist, Amateur Android Developer from Bexley who loves fried rice. </p>
+      	</div>
+      </div>
+
+      <div class='col-md-4'>
+      	<div>
+      	<img src="saachisface.jpg" alt="Saachi" class="img-circle" style="width:20%">
+      	</div>
+      	<div>
+  		<h3>SAACHI</h3>
+  	    </div>
+  	    <p>
+  	    Saachi is a 16 year old programmer and cake-eater from Pinner. </p>
+  	    </div>
+
+
+  	<div class='col-md-4'>
+      	<div>
+      	<img src="stefaniesface.jpg" alt="Stefanie" class="img-circle" style="width:20%">
+      	</div>
+      	<div>
+       	<h3>STEFANIE</h3>
+       	<p> Hi.
+       	I like pizza and *thinking face* .. nothing else. From Isleworth. </p>
+      	</div>
+      </div>
+      </div>
+   </div>
+   </div>
+
+
+  </div>
+  </body>
+
+  </center>
+
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p></p>
+    </div>
+
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Empowerment</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Women</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Politics</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Men</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Community</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom"></span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Improvement</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">LGBT+</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Friend</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Unity</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Issues</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
