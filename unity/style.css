@@ -1,13 +1,14 @@
 
 
-h1{padding-left:30px;}
+h1{padding-left:30px;text-decoration: underline;}
 h2{padding-left:80px;}
 
 
-
+#charities{text-align:left;padding-bottom: 100px;background-color:#6dfcca;text-align:center;}
 
 #fathers{text-align:center; background-color:#6c74eb;}
 
 ol{text-align:left;}
 
 #help{padding-bottom: 50px;}
+
